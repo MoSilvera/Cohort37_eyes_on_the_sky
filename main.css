@@ -1,3 +1,7 @@
 img {
     width: 200px;
 }
+
+.Rover-container{
+    display: flex;
+}

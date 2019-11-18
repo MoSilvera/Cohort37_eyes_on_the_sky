@@ -3,7 +3,7 @@ import RoverPictureComponent from "./RoverPicture.js"
 
 const RoverPictureList = (date, rover) => {
 
-    const rootElement = document.querySelector(".root")
+    const containerElement = document.querySelector(".Rover-container")
 
     marsRoverPhotoHandler.getByDate(date, rover)
         .then((res) => {
@@ -19,7 +19,7 @@ const RoverPictureList = (date, rover) => {
             return roverPhotosHTML
         }
         )
-        .then((roverPhotosHTML) => rootElement.innerHTML += roverPhotosHTML)
+        .then((roverPhotosHTML) => containerElement.innerHTML += roverPhotosHTML)
 
 }
 
