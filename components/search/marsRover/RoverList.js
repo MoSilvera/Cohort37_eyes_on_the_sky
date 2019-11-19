@@ -4,7 +4,7 @@ import RoverPictureComponent from "./RoverPicture.js"
 const RoverPictureList = (date, rover) => {
 
     const containerElement = document.querySelector(".Rover-container")
-
+    const allRoverPhotos = []
     marsRoverPhotoHandler.getByDate(date, rover)
         .then((res) => {
             let roverPhotosHTML = ""
