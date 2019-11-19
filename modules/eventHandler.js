@@ -16,7 +16,7 @@ const initializeDetailButtonEvents = () => {
         }
         if (event.target.id === "search--btn")
 
-        {   console.log(document.getElementById("rover_select").value)
+        {
             document.querySelector(".POTD-container").innerHTML = ""
             POTDPictureList(document.getElementById("search_date").value)
             document.querySelector(".Rover-container").innerHTML = ""
