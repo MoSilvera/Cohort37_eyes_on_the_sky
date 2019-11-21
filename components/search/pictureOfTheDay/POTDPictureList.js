@@ -9,6 +9,7 @@ const containerElement = document.querySelector(".POTD-container")
 const POTDPictureList = (date) => {
     //on first load *when no date is passed in* get today's picture of the day
     if(!date){
+        console.log("initial load")
         PictureOfTheDayHandler.getByDate(settings.formatDate(Date.now()))
             .then((res) => {
                 containerElement.innerHTML = PictureOfTheDayComponent(res)
@@ -19,11 +20,13 @@ const POTDPictureList = (date) => {
     //
     eventTarget.addEventListener('searchActivated', event => {
         if ("date" in event.detail) {
+
+            console.log("into the event detail if")
             if (event.detail.crimeId === "") {
                 alert("please select a date")
             } else {
 
-                PictureOfTheDayHandler.getByDate(date)
+                PictureOfTheDayHandler.getByDate(event.detail.date)
                 .then((res) => {
 
             containerElement.innerHTML = PictureOfTheDayComponent(res)
@@ -32,6 +35,7 @@ const POTDPictureList = (date) => {
         }
     }
         else{
+            console.log("all the way in the else")
             PictureOfTheDayHandler.getByDate(settings.formatDate(Date.now()))
             .then((res) => {
                 containerElement.innerHTML = PictureOfTheDayComponent(res)
