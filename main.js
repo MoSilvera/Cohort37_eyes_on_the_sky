@@ -9,7 +9,7 @@ import NEOList from "./components/search/neo/NEOList.js"
 initializeDetailButtonEvents()
 SearchComponent.searchComponentInit()
 RoverPictureList("2019-06-03", "curiosity")
-POTDPictureList("2019-11-11")
+POTDPictureList()
 NEOList(settings.formatDate(Date.now()))
 
 
