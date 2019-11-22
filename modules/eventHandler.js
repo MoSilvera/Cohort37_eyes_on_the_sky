@@ -12,8 +12,8 @@ const initializeDetailButtonEvents = () => {
         }
         if (event.target.id === "search--btn")
         {
-            document.querySelector(".Rover-container").innerHTML = ""
-            RoverList(document.getElementById("search_date").value, document.getElementById("rover_select").value)
+            // document.querySelector(".Rover-container").innerHTML = ""
+            // RoverList(document.getElementById("search_date").value, document.getElementById("rover_select").value)
         }
  })
 
