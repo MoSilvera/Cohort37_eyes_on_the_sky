@@ -1,5 +1,5 @@
 
-const PictureOfTheDayComponent = (object) => {
+export const PictureOfTheDayComponent = (object) => {
 
     return `
         <div class="potd">
@@ -24,4 +24,12 @@ const PictureOfTheDayComponent = (object) => {
     `
 }
 
-export default  PictureOfTheDayComponent
+
+
+export const noPictureOfTheDayAvailable = () => {
+    return `
+        <div>
+            <h4>Sorry! No picture of the day available</h4>
+        </div>
+    `
+}

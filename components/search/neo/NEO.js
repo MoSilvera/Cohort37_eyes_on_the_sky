@@ -1,4 +1,4 @@
-const NEOComponent = (date, diameterArray) => {
+export const NEOComponent = (date, diameterArray) => {
 
     return `
         <div>
@@ -9,4 +9,10 @@ const NEOComponent = (date, diameterArray) => {
     `
 }
 
-export default NEOComponent
+export const noNEOInformationAvailable = () => {
+    return `
+        <div>
+            <h4>Sorry! No near earth object data could be found.</h4>
+        </div>
+    `
+}
