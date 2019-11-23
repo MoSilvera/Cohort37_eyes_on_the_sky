@@ -8,5 +8,12 @@ As a teaching assistant at a coding bootcamp, I am always trying to keep my skil
 This site is based on our *Eyes on the Sky* project.
 
 ## How to run Sky Scanner
-1. Clone down the project using `
+1. Clone down the project to your computer. You can use the terminal command
+     `git clone git@github.com:MoSilvera/Cohrot37_eyes_on_the_sky.git`
+
+2. Make a directory at the root of the file called api
+    `mkdir api`
+
+3. Cd into that directory and make a file called database.json
+    `cd api && touch database.json`
 
