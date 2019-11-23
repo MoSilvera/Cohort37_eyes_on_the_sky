@@ -1,6 +1,6 @@
-import PictureOfTheDayHandler from "../../../modules/PictureOfTheDayHandler.js"
-import {PictureOfTheDayComponent, noPictureOfTheDayAvailable} from "./PictureOfTheDay.js"
-import settings from "../../../modules/settings.js"
+import PictureOfTheDayHandler from "../../modules/PictureOfTheDayHandler.js"
+import {PictureOfTheDayComponent, noPictureOfTheDayAvailable} from "./PictureOfTheDay.js.js"
+import settings from "../../modules/settings.js"
 
 
 let eventTarget = document.getElementById("eventHub")

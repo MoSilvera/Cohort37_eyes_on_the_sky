@@ -1,6 +1,6 @@
-import marsRoverPhotoHandler from "../../../modules/marsRoverPhotoHandler.js"
-import { RoverPictureComponent, noRoverPictureAvailable } from "./RoverPicture.js"
-import settings from "../../../modules/settings.js"
+import marsRoverPhotoHandler from "../../modules/marsRoverPhotoHandler.js"
+import { RoverPictureComponent, noRoverPictureAvailable } from "./RoverPicture.js.js"
+import settings from "../../modules/settings.js"
 
 
 let currentDate = settings.formatDate(Date.now())
