@@ -9,7 +9,7 @@ This site is based on our *Eyes on the Sky* project.
 
 ## Tools
 
-The API's featured in this site are sourced from [NASA's Open API project](https://api.nasa.gov/)
+The API's featured in this site are sourced from [NASA's open API project](https://api.nasa.gov/)
 
 #### APOD
 
@@ -24,6 +24,8 @@ The API's featured in this site are sourced from [NASA's Open API project](https
 >This API is designed to collect image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars and make it more easily available to other developers, educators, and citizen scientists. This API is maintained by Chris Cerami.
 
 ## How to run Sky Scanner
+before beginning make sure that you have REST api simulator like [json-server](https://www.npmjs.com/package/json-server#alternative-port) as well as a command line HTTP server like [http-server](https://www.npmjs.com/package/http-server). The following instructions are optimized for those node package modules.
+
 1. Clone down the project to your computer. You can use the terminal command
      ```git clone git@github.com:MoSilvera/Cohrot37_eyes_on_the_sky.git```
 
@@ -32,6 +34,18 @@ The API's featured in this site are sourced from [NASA's Open API project](https
 
 3. Cd into that directory and make a file called database.json
     ```cd api && touch database.json```
+
+4. Open the database.json file in your preferred editor, add the following code to the file.
+```
+    {
+    "keys":[
+        {
+            "id": 0,
+            "key": "RZohoclPmiuSi7V41WlOY63mcjmJue8ndoSyqLaY"
+        }
+    ]
+        }
+```
 
 
 
