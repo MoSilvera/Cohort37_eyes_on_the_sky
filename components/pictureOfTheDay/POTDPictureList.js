@@ -1,5 +1,5 @@
 import PictureOfTheDayHandler from "../../modules/PictureOfTheDayHandler.js"
-import {PictureOfTheDayComponent, noPictureOfTheDayAvailable} from "./PictureOfTheDay.js.js"
+import {PictureOfTheDayComponent, noPictureOfTheDayAvailable} from "./PictureOfTheDay.js"
 import settings from "../../modules/settings.js"
 
 

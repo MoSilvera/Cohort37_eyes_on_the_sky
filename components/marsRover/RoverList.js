@@ -1,5 +1,5 @@
 import marsRoverPhotoHandler from "../../modules/marsRoverPhotoHandler.js"
-import { RoverPictureComponent, noRoverPictureAvailable } from "./RoverPicture.js.js"
+import { RoverPictureComponent, noRoverPictureAvailable } from "./RoverPicture.js"
 import settings from "../../modules/settings.js"
 
 
