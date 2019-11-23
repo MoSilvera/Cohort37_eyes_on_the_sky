@@ -11,6 +11,7 @@ const NEOList = () => {
 
     let currentDate = settings.formatDate(Date.now())
 
+    //on first load get most recent neo's
     nearEarthObjectsHandler.getByDate(currentDate)
         .then((res) => {
             let sizeArray = []
@@ -26,7 +27,9 @@ const NEOList = () => {
             NEOContainer.innerHTML += NEOComponent(currentDate, sortedArray)
         })
 
-
+    //add event listener for the custom search event
+    //fetch NEO by selected date
+    //if no image display unavailable message, if image available display
     eventTarget.addEventListener("searchActivated", (evt) => {
         nearEarthObjectsHandler.getByDate(evt.detail.date)
             .then((res) => {

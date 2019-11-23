@@ -51,6 +51,7 @@ const RoverPictureList = () => {
     //if the property date is available on the details object fetch the data and put it on the dom
     eventTarget.addEventListener("searchActivated", (evt) => {
         if (evt.detail.date) {
+            let date = evt.detail.date
             let eventRoverPhotosHTML = ""
             marsRoverPhotoHandler.getByDate(evt.detail.date, "spirit")
                 .then((res) => eventRoverPhotosHTML += duplicatePhotoRemover(res))
@@ -58,7 +59,7 @@ const RoverPictureList = () => {
                 .then((res) => eventRoverPhotosHTML += duplicatePhotoRemover(res))
                 .then(() => marsRoverPhotoHandler.getByDate(evt.detail.date, "opportunity"))
                 .then((res) => eventRoverPhotosHTML += duplicatePhotoRemover(res))
-                .then(() => noPhotosAvailable(eventRoverPhotosHTML, event.detail.date))
+                .then(() => noPhotosAvailable(eventRoverPhotosHTML, date))
         }
     })
 
