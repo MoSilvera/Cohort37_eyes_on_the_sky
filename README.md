@@ -9,7 +9,7 @@ This site is based on our *Eyes on the Sky* project.
 
 ## Tools
 
-The API's featured in this site are sourced from [title](https://api.nasa.gov/)
+The API's featured in this site are sourced from [NASA's Open API project](https://api.nasa.gov/)
 
 #### APOD
 
