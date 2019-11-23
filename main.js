@@ -1,9 +1,9 @@
-import RoverPictureList from "./components/search/marsRover/RoverList.js"
-import POTDPictureList from "./components/search/pictureOfTheDay/POTDPictureList.js"
+import RoverPictureList from "./components/marsRover/RoverList.js.js"
+import POTDPictureList from "./components/pictureOfTheDay/POTDPictureList.js.js"
 import SearchComponent from "./components/search/SearchComponent.js"
 import nearEarthObjectsHandler from "./modules/nearEarthObjectsHandler.js"
 import settings from "./modules/settings.js"
-import NEOList from "./components/search/neo/NEOList.js"
+import NEOList from "./components/neo/NEOList.js.js"
 
 RoverPictureList()
 POTDPictureList()

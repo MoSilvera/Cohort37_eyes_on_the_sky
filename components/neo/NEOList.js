@@ -1,6 +1,6 @@
-import { NEOComponent, noNEOInformationAvailable } from "./NEO.js"
-import nearEarthObjectsHandler from "../../../modules/nearEarthObjectsHandler.js"
-import settings from "../../../modules/settings.js"
+import { NEOComponent, noNEOInformationAvailable } from "./NEO.js.js"
+import nearEarthObjectsHandler from "../../modules/nearEarthObjectsHandler.js"
+import settings from "../../modules/settings.js"
 
 let eventTarget = document.querySelector("#eventHub")
 let NEOContainer = document.getElementById("NEO-container")
