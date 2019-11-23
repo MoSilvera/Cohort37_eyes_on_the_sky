@@ -31,16 +31,20 @@ The API's featured in this site are sourced from [NASA's open API project](https
 ## How to run Sky Scanner
 before beginning make sure that you have REST api simulator like [json-server](https://www.npmjs.com/package/json-server#alternative-port) as well as a command line HTTP server like [http-server](https://www.npmjs.com/package/http-server). The following instructions are optimized for those node package modules.
 
-1. Clone down the project to your computer. You can use the terminal command
+1. Clone down the project 
 ```
-         git clone git@github.com:MoSilvera/Cohrot37_eyes_on_the_sky.git 
+      git clone git@github.com:MoSilvera/Cohrot37_eyes_on_the_sky.git 
 ```
 
 2. Make a directory at the root of the file called api
-    ```mkdir api```
+```
+    mkdir api
+```
 
 3. Cd into that directory and make a file called database.json
-    ```cd api && touch database.json```
+```
+    cd api && touch database.json
+```
 
 4. Open the database.json file in your preferred editor, add the following code to the file
 ```
