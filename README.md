@@ -74,4 +74,4 @@ Before beginning make sure that you have REST api simulator like [json-server](h
 
 ## Notes
 
-    Sky Scanner is an ever evolving work in progress! There is currently no styling in the app (I'm hoping to rally the UX students into helping out!) and both code and documentation is written in the hopes of clarifying the processes for other junior developers!
+    Sky Scanner is an ever evolving work in progress! There is currently no styling in the app (I'm hoping to rally the UI/UX students into helping out!) and both code and documentation is written in the hopes of clarifying the processes for other junior developers.
