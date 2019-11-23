@@ -17,7 +17,7 @@ const PictureOfTheDayComponent = (object) => {
 
             <dialog id="dialog-POTD" >
             <div> Description: ${object.explanation} </div>
-            <button class="button--close" id="close-POTD">Close</button>
+            <button id="details--close">Close</button>
             </dialog>
 
         </div>

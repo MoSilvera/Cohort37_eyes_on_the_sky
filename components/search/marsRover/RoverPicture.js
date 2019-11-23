@@ -1,5 +1,5 @@
 
-const RoverPictureComponent = (object) => {
+export const RoverPictureComponent = (object) => {
     return `
         <div class="rover">
             <h4 class=rover_name>${object.rover.name}</h4>
@@ -23,4 +23,8 @@ const RoverPictureComponent = (object) => {
     `
 }
 
-export default  RoverPictureComponent
+export const noRoverPictureAvailable = (date) => {
+    return `
+        <div><h4>Sorry! No rover pictures for ${date}.</h4></div>
+        `
+}
