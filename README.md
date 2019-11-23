@@ -1,10 +1,15 @@
 # Sky Scanner
 
-Sky Scanner is an app that utilizes three of NASA's open data API's to provide photos and information by user selected date
+Sky Scanner utilizes three of NASA's open data API's to provide photos and information by user selected date
 
 ## Why Sky Scanner
 
+Three words: Practice, empathy, and fun!
+
 As a teaching assistant at a coding bootcamp, I am always trying to keep my skills sharp, as well as create example code for my students. As our team explores ways to teach the use of custom events to our students, alongside the basics of asynchronous programming, I find it important to go through the experience my students are about to have.
+
+Plus...space is cool. Who doesn't want to see something from space!?
+
 This site is based on our *Eyes on the Sky* project.
 
 ## Tools
@@ -35,7 +40,7 @@ before beginning make sure that you have REST api simulator like [json-server](h
 3. Cd into that directory and make a file called database.json
     ```cd api && touch database.json```
 
-4. Open the database.json file in your preferred editor, add the following code to the file.
+4. Open the database.json file in your preferred editor, add the following code to the file
 ```
     {
     "keys":[
@@ -47,5 +52,4 @@ before beginning make sure that you have REST api simulator like [json-server](h
         }
 ```
 
-
-
+5. Replace `${YOUR KEY HERE}$` with an API key generated [here](https://api.nasa.gov/)
