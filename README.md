@@ -6,7 +6,7 @@ Sky Scanner utilizes three of NASA's open data API's to provide photos and infor
 
 Three words: Practice, empathy, and fun!
 
-As a teaching assistant at a coding bootcamp, I am always trying to keep my skills sharp, as well as create example code for my students. As our team explores ways to teach the use of custom events to our students, alongside the basics of asynchronous programming, I find it important to go through the experience my students are about to have.
+As a teaching assistant at a coding bootcamp, I like to practice my skills, as well as create example code for my students. As our team explores ways to teach the use of custom events to our students, alongside the basics of asynchronous programming, I think it's important to go through the experience my students are about to have!
 
 Plus...space is cool. Who doesn't want to see something from space!?
 
@@ -28,6 +28,7 @@ The API's featured in this site are sourced from [NASA's open API project](https
 #### Mars Rover Photos
 >This API is designed to collect image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars and make it more easily available to other developers, educators, and citizen scientists. This API is maintained by Chris Cerami.
 
+*All descriptions are sourced from [NASA](https://api.nasa.gov/)*
 ## How to run Sky Scanner
 Before beginning make sure that you have REST api simulator like [json-server](https://www.npmjs.com/package/json-server#alternative-port) as well as a command line HTTP server like [http-server](https://www.npmjs.com/package/http-server). The following instructions are optimized for those node package modules.
 
