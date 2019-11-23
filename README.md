@@ -41,7 +41,7 @@ before beginning make sure that you have REST api simulator like [json-server](h
     "keys":[
         {
             "id": 0,
-            "key": "RZohoclPmiuSi7V41WlOY63mcjmJue8ndoSyqLaY"
+            "key": 
         }
     ]
         }
